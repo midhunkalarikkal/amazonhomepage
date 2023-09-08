@@ -231,3 +231,164 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 16px;
     font-size: 16px;
 }
+
+/*First header end*/
+
+.header-two{
+    width: 100%;
+    height: 5vh;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-two button{
+    height: 5vh;
+    border: 0;
+    background-color: #00000000;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hamburger-all{
+    width: 5%;
+}
+
+.hamburger-all i{
+    font-size: 18px;
+}
+
+.todays-deals{
+    width: 7%;
+}
+
+.customer-service{
+    width: 8%;
+}
+
+.registry{
+    width: 5%;
+}
+
+.gift-cards{
+    width: 6%;
+}
+
+.sell{
+    width: 5%;
+}
+
+.side-menu{
+    height: 100vh;
+    width: 25%;
+    left: -25%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    position: fixed;
+    transition:left 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.side-menu.open {
+    left: 0;
+}
+
+.side-menu-box-one{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    background-color: #232f3e;
+    height: 7vh;
+}
+
+.side-menu-box-one .account-img{
+    width: 10%;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-menu-box-one .text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 5vh;
+}
+
+.side-menu-box-one #side-menu-close-btn{
+    background-color: rgba(255, 255, 0, 0);
+    color:rgb(241, 241, 241);
+    width: 10%;
+    height: 5vh;
+    font-size: 20px;
+    border: 0;
+    margin-left: auto;
+}
+
+.side-menu-box-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    height: 24vh;
+    border-bottom: .03px solid grey
+}
+
+.box-two-text{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.box-two-text h4{
+    margin-left: 20px
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.links .link{
+    width: 100%;
+    height: 6vh;
+}
+
+.links .link:hover{
+    background-color: rgb(231, 229, 229);
+}
+
+.side-menu-box-two .links .link{
+    display: flex;
+    align-items: center;
+}
+
+.link h4{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.link i{
+    margin-left: auto;
+    margin-right: 10px
+}
+
+
+
+
+
+
