@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .header-one{
     width: 100%;
     height: 7vh;
@@ -13,22 +17,22 @@
 .logo{
     width: 10%;
     height: 7vh;
-    background-color: yellowgreen;
+    background-color: rgba(0, 0, 0, 0);
     display: flex;
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo img{
-    width: 90%;
-    height: 7vh;
+    width: 70%;
+    height: 5vh;
 }
 
 .location{
     width: 8%;
     height: 7vh;
-    background-color: rgb(182, 159, 182);
 }
 
 .location-btn{
@@ -39,6 +43,8 @@
     justify-content: center;
     align-items: center;
     border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
 .locaton-btn h5{
@@ -46,8 +52,13 @@
     font-size: 13px;
 }
 
+.location button{
+    color: white;
+}
+
 .location-btn-logo{
     display: flex;
+    color: white;
 }
 
 .location-btn-logo i{
@@ -61,9 +72,9 @@
 }
 
 .search{
-    width: 51%;
+    width: 55%;
     height: 7vh;
-    background-color: rgb(166, 238, 130);
+    background-color: rgba(166, 238, 130, 0);
     display: flex;
     flex-direction: row;
 }
@@ -75,8 +86,43 @@
     padding: 10px;
 }
 
+.search-div .all{
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all h4{
+    font-size: 13px;
+    color: rgb(162, 162, 162)
+}
+
+.all select{
+    width: 2vh;
+    margin-left: 4px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0)
+}
+
+.search-div .s-btn{
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    background-color: #f4bd75;
+}
+
+.search-div .s-btn:hover{
+    background-color: #f3a847;
+}
+
+::placeholder{
+    font-size: 17px;
+}
+
 .search-div button{
-    width: 8%;
+    width: 6%;
     border: 0;
 }
 
@@ -85,36 +131,103 @@
 }
 
 .search-div input{
-    width: 84%;
+    width: 86%;
     border: 0;
 }
 
 .language{
     width: 5%;
     height: 7vh;
-    background-color: rgb(238, 213, 130);
     display: flex;;
 }
 
 .language select{
     width: 100%;
     border: 0;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
 }
+
 
 .account{
     width: 10%;
     height: 7vh;
-    background-color: rgb(130, 238, 188);
+    display: flex;
 }
 
-.rd{
-    width: 8%;
+.account .account-btn{
+    width: 100%;
     height: 7vh;
-    background-color: rgb(238, 130, 179);
+    border: 0;
+    background-color: rgba(153, 205, 50, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.account-btn h6{
+    font-size: 11px;
+    color: white;
+}
+
+.account-dropdown{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.account-dropdown select{
+    border: 0;
+    background-color: rgba(153, 205, 50, 0);
+    color: white;
+}
+
+
+.rd{
+    width: 6%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rd a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+}
+
+.rd a span{
+    font-size: 15px;
 }
 
 .cart{
-    width: 8%;
+    width: 6%;
     height: 7vh;
-    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+.cart i{
+    font-size: 30px;
+}
+
+.cart h6{
+    margin-top: 16px;
+    font-size: 16px;
 }
