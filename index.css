@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-one{
+    width: 100%;
+    height: 7vh;
+    background-color: #131921;
+    display: flex;
+}
+
+.logo{
+    width: 10%;
+    height: 7vh;
+    background-color: yellowgreen;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 90%;
+    height: 7vh;
+}
+
+.location{
+    width: 8%;
+    height: 7vh;
+    background-color: rgb(182, 159, 182);
+}
+
+.location-btn{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+.locaton-btn h5{
+    width: 100%;
+    font-size: 13px;
+}
+
+.location-btn-logo{
+    display: flex;
+}
+
+.location-btn-logo i{
+    font-size: 20px;
+}
+
+.location-btn-logo h5{
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.search{
+    width: 51%;
+    height: 7vh;
+    background-color: rgb(166, 238, 130);
+    display: flex;
+    flex-direction: row;
+}
+
+.search-div{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.search-div button{
+    width: 8%;
+    border: 0;
+}
+
+.search-div button i{
+    font-size: 20px;
+}
+
+.search-div input{
+    width: 84%;
+    border: 0;
+}
+
+.language{
+    width: 5%;
+    height: 7vh;
+    background-color: rgb(238, 213, 130);
+    display: flex;;
+}
+
+.language select{
+    width: 100%;
+    border: 0;
+}
+
+.account{
+    width: 10%;
+    height: 7vh;
+    background-color: rgb(130, 238, 188);
+}
+
+.rd{
+    width: 8%;
+    height: 7vh;
+    background-color: rgb(238, 130, 179);
+}
+
+.cart{
+    width: 8%;
+    height: 7vh;
+    background-color: violet;
+}
