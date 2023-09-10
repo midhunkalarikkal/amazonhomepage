@@ -711,7 +711,255 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 550;
 }
 
+/*Footer-signin*/
 
+.footer-signin{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+}
+
+.inside-div{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.2px solid rgb(135, 135, 135);
+    border-bottom: 0.2px solid rgb(135, 135, 135);
+}
+
+.inside-div h5{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.inside-div button{
+    width: 15%;
+    height: 3vh;
+    border-radius: 6px;
+    border: 0;
+    background-color: rgb(254, 228, 59);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.inside-div h5{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.inside-div h5 a{
+    text-decoration: none;
+    color:rgb(26, 101, 162);
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-button{
+    width: 100%;
+    height: 6vh;
+}
+
+.footer-button button{
+    width: 100%;
+    height: 6vh;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #374453;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer-button button:hover{
+    background-color: #485769;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    height: 50vh;
+}
+
+.footer-box .box{
+    height: 40vh;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    margin-left:5px;
+    margin-top: 20px;
+}
+
+.box h4{
+    color: white;
+    font-size: 14px;
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 11px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.box a:hover{
+    text-decoration: underline;
+}
+
+#box-one{
+    width: 13%;
+}
+
+#box-two{
+    width: 17%;
+}
+
+#box-three{
+    width:21%;
+}
+
+#box-four{
+    width:13%;
+}
+
+.footer-box-two{
+    width: 100%;
+    height: 15vh;
+    border-top: 0.2px solid rgb(142, 142, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-two-logo{
+    width: 6%;
+    height: 4vh;
+    overflow: hidden;
+}
+
+.box-two-logo img{
+    width: 100%;
+    height: 5vh;
+}
+
+.footer-box-two .box-two-buttons{
+    display: flex;
+    height: 3.5vh;
+    margin-left: 40px;
+}
+
+.box-two-buttons button{
+    width: 15vh;
+    height: 3.5vh;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid rgb(157, 157, 157);
+    color: rgb(220, 215, 215);
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.footer-box-three{
+    width: 100%;
+    height: 45vh;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+}
+
+.row-box{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(238, 130, 238, 0);
+    margin-top: 40px;
+}
+
+.row-box .box{
+    width: 12%;
+    height: auto;
+    background-color: rgba(153, 205, 50, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box .square{
+    width: 100%;
+    height: auto;
+    background-color: rgba(15, 23, 22, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.box .square-head{
+    font-size: 11px;
+}
+
+.box .square-fade{
+    font-size: 11px;
+    color: rgb(177, 177, 177);
+    margin-top: 1px;
+}
+
+/*final-footer*/
+.final-footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #131a22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-footer .links{
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.final-footer .links a{
+    color: white;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.final-footer .links a:hover{
+    text-decoration: underline;
+}
+
+.final-footer .copyright h5{
+    color: white;
+    font-size: 12px;
+    margin-top:2px;
+    font-weight:500;
+}
 
 
 
