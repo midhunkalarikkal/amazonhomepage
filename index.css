@@ -602,7 +602,7 @@ h1, h2, h3, h4, h5, h6{
 
 .content-scroll{
     width: 97%;
-    height: 100%;
+    height: 46vh;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -611,8 +611,8 @@ h1, h2, h3, h4, h5, h6{
 
 .content-scroll .heading{
     width: 98%;
-    height: 12%;
-    background-color: yellow;
+    height: 6vh;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
 }
@@ -626,23 +626,98 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 3px;
 }
 
-.content-scroll .img-content{
-    width: 98%;
-    height: 88%;
-    background-color: turquoise;
-    overflow-x: auto;
-    white-space: nowrap;
+.img-content{
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
     overflow-y: hidden;
 }
 
-.img-content-item{
-    display: inline-block;
-    width: 35vh;
-    height: 98%; 
-    margin-right: 10px; 
-    background-color: #f0f0f0;
-    margin-top: 3px;
+.item{
+    flex: 0 0 auto;
+    width: 33vh;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.item-image-box{
+    width: 33vh;
+    height: 60%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .item-image{
+    width: 60%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.item .offer{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(254, 254, 254);
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.offer button{
+    width: 30%;
+    height: 3vh;
+    background-color: rgb(255, 55, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 0;
+}
+
+.offer h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 65, 65);
+    margin-left: 5px;
+}
+
+.item .price{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(255, 255, 255);
+}
+
+.item .price h4{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.item .desc{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(255, 255, 255);
+}
+
+.desc h5{
+    font-size: 12px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+
 
 
 
